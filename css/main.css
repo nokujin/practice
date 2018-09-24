@@ -1,4 +1,5 @@
-#main {
-  background-color: black; }
-  #main .copy {
-    color: red; }
+#main header {
+  border: 2px solid red; }
+
+#main .copy {
+  color: red; }
