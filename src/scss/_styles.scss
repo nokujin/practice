@@ -1,0 +1,19 @@
+#body--container {
+    background-color: white;
+    margin: 40%;
+
+    header {
+        border: none;
+
+        .header--title {
+            color: $blue;
+        }
+    }
+
+}
+
+@media (min-width: $desktop) {
+    #body--container {
+        margin: 100%;
+    }
+}

@@ -1,5 +1,11 @@
-#main header {
-  border: 2px solid blue; }
+#body--container {
+  background-color: white;
+  margin: 40%; }
+  #body--container header {
+    border: none; }
+    #body--container header .header--title {
+      color: #00b8e4; }
 
-#main .copy {
-  color: red; }
+@media (min-width: 1024px) {
+  #body--container {
+    margin: 100%; } }
